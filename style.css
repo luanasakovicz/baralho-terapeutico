@@ -12,15 +12,28 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     color: #00ff88;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text y="24" font-size="24">👆</text></svg>'), auto;
     transition: all 0.5s ease;
     -webkit-overflow-scrolling: touch;
     -webkit-tap-highlight-color: transparent;
     padding: 0;
     margin: 0;
+}
+
+/* Desktop - centralização com flex */
+@media (min-width: 769px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Mobile - layout normal para scroll */
+@media (max-width: 768px) {
+    body {
+        display: block;
+    }
 }
 
 /* Desktop - sem scroll */
@@ -645,7 +658,7 @@ body.focused .card {
     }
     
     #selectionScreen {
-        min-height: 100vh;
+        min-height: 150vh;
         height: auto;
         padding: 0;
         overflow-y: visible;
@@ -657,9 +670,9 @@ body.focused .card {
         top: 0;
         left: 0;
         transform: none;
-        padding: 100px 20px 100px 20px;
+        padding: 100px 20px 200px 20px;
         margin: 0;
-        min-height: 100vh;
+        min-height: 150vh;
         width: 100%;
         display: block;
     }
