@@ -1,6 +1,6 @@
-# 🎴 Jogo de Psicologia - Baralho de Sentimentos e Expectativas
+# 🎴 Jogo de Psicologia - Baralho Terapêutico
 
-Um jogo interativo de psicologia onde os jogadores podem tirar cartas de um baralho especial para descobrir insights sobre seus sentimentos e expectativas.
+Um jogo interativo de psicologia onde os jogadores podem tirar cartas de um baralho especial para descobrir insights.
 
 ## 📄 Licença
 
